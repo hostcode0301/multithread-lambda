@@ -1,0 +1,679 @@
+{
+    "multithread-lambda-dynamodb-table": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Maine"
+                    },
+                    "Name": {
+                        "S": "Vera Gomez"
+                    },
+                    "Email": {
+                        "S": "morbi.vehicula.pellentesque@hotmail.org"
+                    },
+                    "Address": {
+                        "S": "Ap #768-3697 Malesuada Av."
+                    },
+                    "Text": {
+                        "S": "eros turpis non enim. Mauris quis turpis vitae purus gravida"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#morbi.vehicula.pellentesque@hotmail.org"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "South Australia"
+                    },
+                    "Name": {
+                        "S": "Lenore Carney"
+                    },
+                    "Email": {
+                        "S": "aliquam@hotmail.net"
+                    },
+                    "Address": {
+                        "S": "3181 Phasellus Av."
+                    },
+                    "Text": {
+                        "S": "nunc. In at pede. Cras vulputate velit eu sem. Pellentesque"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#aliquam@hotmail.net"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Western Australia"
+                    },
+                    "Name": {
+                        "S": "Xavier Nicholson"
+                    },
+                    "Email": {
+                        "S": "risus.at@outlook.edu"
+                    },
+                    "Address": {
+                        "S": "6624 Quis Road"
+                    },
+                    "Text": {
+                        "S": "nec tempus scelerisque, lorem ipsum sodales purus, in molestie tortor"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#risus.at@outlook.edu"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Hawaii"
+                    },
+                    "Name": {
+                        "S": "Jeremy Blanchard"
+                    },
+                    "Email": {
+                        "S": "donec.feugiat@yahoo.com"
+                    },
+                    "Address": {
+                        "S": "Ap #782-8400 Ut Rd."
+                    },
+                    "Text": {
+                        "S": "cursus a, enim. Suspendisse aliquet, sem ut cursus luctus, ipsum"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#donec.feugiat@yahoo.com"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Queensland"
+                    },
+                    "Name": {
+                        "S": "Jessamine Roberson"
+                    },
+                    "Email": {
+                        "S": "ornare.facilisis.eget@icloud.com"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 807, 250 Mattis Ave"
+                    },
+                    "Text": {
+                        "S": "vulputate velit eu sem. Pellentesque ut ipsum ac mi eleifend"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#ornare.facilisis.eget@icloud.com"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Illinois"
+                    },
+                    "Name": {
+                        "S": "Deborah Villarreal"
+                    },
+                    "Email": {
+                        "S": "nonummy.ac.feugiat@hotmail.couk"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 389, 2373 A, Rd."
+                    },
+                    "Text": {
+                        "S": "Aenean euismod mauris eu elit. Nulla facilisi. Sed neque. Sed"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#nonummy.ac.feugiat@hotmail.couk"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Hawaii"
+                    },
+                    "Name": {
+                        "S": "Britanney Ellis"
+                    },
+                    "Email": {
+                        "S": "malesuada.integer@icloud.ca"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 742, 5211 Ac St."
+                    },
+                    "Text": {
+                        "S": "Integer eu lacus. Quisque imperdiet, erat nonummy ultricies ornare, elit"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#malesuada.integer@icloud.ca"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Western Australia"
+                    },
+                    "Name": {
+                        "S": "Anthony Hendricks"
+                    },
+                    "Email": {
+                        "S": "ultrices.vivamus@hotmail.ca"
+                    },
+                    "Address": {
+                        "S": "Ap #986-6655 Nulla Rd."
+                    },
+                    "Text": {
+                        "S": "In ornare sagittis felis. Donec tempor, est ac mattis semper,"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#ultrices.vivamus@hotmail.ca"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Wisconsin"
+                    },
+                    "Name": {
+                        "S": "Beverly Barker"
+                    },
+                    "Email": {
+                        "S": "a.neque.nullam@yahoo.couk"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 563, 1082 Nulla. Av."
+                    },
+                    "Text": {
+                        "S": "Donec nibh. Quisque nonummy ipsum non arcu. Vivamus sit amet"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#a.neque.nullam@yahoo.couk"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Maine"
+                    },
+                    "Name": {
+                        "S": "Priscilla Hull"
+                    },
+                    "Email": {
+                        "S": "nisi.nibh@outlook.couk"
+                    },
+                    "Address": {
+                        "S": "735-8142 Aliquam Road"
+                    },
+                    "Text": {
+                        "S": "tristique senectus et netus et malesuada fames ac turpis egestas."
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#nisi.nibh@outlook.couk"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "South Australia"
+                    },
+                    "Name": {
+                        "S": "Zeus Day"
+                    },
+                    "Email": {
+                        "S": "pellentesque.habitant@outlook.ca"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 668, 4661 Convallis Av."
+                    },
+                    "Text": {
+                        "S": "Mauris blandit enim consequat purus. Maecenas libero est, congue a,"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#pellentesque.habitant@outlook.ca"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Nebraska"
+                    },
+                    "Name": {
+                        "S": "Lev Aguirre"
+                    },
+                    "Email": {
+                        "S": "nec@hotmail.ca"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 493, 8469 Eu Rd."
+                    },
+                    "Text": {
+                        "S": "non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#nec@hotmail.ca"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Montana"
+                    },
+                    "Name": {
+                        "S": "Keane Hood"
+                    },
+                    "Email": {
+                        "S": "pede@aol.edu"
+                    },
+                    "Address": {
+                        "S": "271-8739 Sit Ave"
+                    },
+                    "Text": {
+                        "S": "ligula. Aenean euismod mauris eu elit. Nulla facilisi. Sed neque."
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#pede@aol.edu"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Kansas"
+                    },
+                    "Name": {
+                        "S": "Cyrus Cantu"
+                    },
+                    "Email": {
+                        "S": "arcu@yahoo.ca"
+                    },
+                    "Address": {
+                        "S": "Ap #225-1765 Risus. Av."
+                    },
+                    "Text": {
+                        "S": "non, feugiat nec, diam. Duis mi enim, condimentum eget, volutpat"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#arcu@yahoo.ca"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Western Australia"
+                    },
+                    "Name": {
+                        "S": "Gray Cox"
+                    },
+                    "Email": {
+                        "S": "nonummy.ut@icloud.edu"
+                    },
+                    "Address": {
+                        "S": "Ap #147-966 Tempus, Street"
+                    },
+                    "Text": {
+                        "S": "placerat, orci lacus vestibulum lorem, sit amet ultricies sem magna"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#nonummy.ut@icloud.edu"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Western Australia"
+                    },
+                    "Name": {
+                        "S": "Paul Rojas"
+                    },
+                    "Email": {
+                        "S": "proin.vel@outlook.couk"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 885, 3369 Fermentum Road"
+                    },
+                    "Text": {
+                        "S": "aliquet. Phasellus fermentum convallis ligula. Donec luctus aliquet odio. Etiam"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#proin.vel@outlook.couk"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Northern Territory"
+                    },
+                    "Name": {
+                        "S": "Kermit Waters"
+                    },
+                    "Email": {
+                        "S": "odio.etiam.ligula@aol.net"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 592, 6771 Eget Street"
+                    },
+                    "Text": {
+                        "S": "lacus. Cras interdum. Nunc sollicitudin commodo ipsum. Suspendisse non leo."
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#odio.etiam.ligula@aol.net"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "South Australia"
+                    },
+                    "Name": {
+                        "S": "David Taylor"
+                    },
+                    "Email": {
+                        "S": "ante.lectus@protonmail.couk"
+                    },
+                    "Address": {
+                        "S": "Ap #773-9125 Mauris Rd."
+                    },
+                    "Text": {
+                        "S": "Ut sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean egestas"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#ante.lectus@protonmail.couk"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Indiana"
+                    },
+                    "Name": {
+                        "S": "Lionel Jarvis"
+                    },
+                    "Email": {
+                        "S": "magnis.dis@aol.net"
+                    },
+                    "Address": {
+                        "S": "P.O. Box 308, 7746 Augue Ave"
+                    },
+                    "Text": {
+                        "S": "tempor lorem, eget mollis lectus pede et risus. Quisque libero"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#magnis.dis@aol.net"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Australian Capital Territory"
+                    },
+                    "Name": {
+                        "S": "Hiram Castillo"
+                    },
+                    "Email": {
+                        "S": "in@hotmail.couk"
+                    },
+                    "Address": {
+                        "S": "173-3641 Lobortis Rd."
+                    },
+                    "Text": {
+                        "S": "dapibus ligula. Aliquam erat volutpat. Nulla dignissim. Maecenas ornare egestas"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#in@hotmail.couk"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Florida"
+                    },
+                    "Name": {
+                        "S": "Cairo Castaneda"
+                    },
+                    "Email": {
+                        "S": "turpis@icloud.couk"
+                    },
+                    "Address": {
+                        "S": "145-5427 Mauris Street"
+                    },
+                    "Text": {
+                        "S": "Sed id risus quis diam luctus lobortis. Class aptent taciti"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#turpis@icloud.couk"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Iowa"
+                    },
+                    "Name": {
+                        "S": "Ignatius Park"
+                    },
+                    "Email": {
+                        "S": "vulputate.dui@outlook.com"
+                    },
+                    "Address": {
+                        "S": "6398 Suscipit Av."
+                    },
+                    "Text": {
+                        "S": "eget laoreet posuere, enim nisl elementum purus, accumsan interdum libero"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#vulputate.dui@outlook.com"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Florida"
+                    },
+                    "Name": {
+                        "S": "Francis Wilkinson"
+                    },
+                    "Email": {
+                        "S": "elit.pellentesque.a@outlook.com"
+                    },
+                    "Address": {
+                        "S": "Ap #329-5939 At, St."
+                    },
+                    "Text": {
+                        "S": "at auctor ullamcorper, nisl arcu iaculis enim, sit amet ornare"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#elit.pellentesque.a@outlook.com"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Victoria"
+                    },
+                    "Name": {
+                        "S": "Prescott Blake"
+                    },
+                    "Email": {
+                        "S": "quam.curabitur.vel@icloud.com"
+                    },
+                    "Address": {
+                        "S": "9794 Mauris St."
+                    },
+                    "Text": {
+                        "S": "dis parturient montes, nascetur ridiculus mus. Proin vel nisl. Quisque"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#quam.curabitur.vel@icloud.com"
+                    }
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "Region": {
+                        "S": "Australian Capital Territory"
+                    },
+                    "Name": {
+                        "S": "Rama Knowles"
+                    },
+                    "Email": {
+                        "S": "laoreet.ipsum.curabitur@aol.net"
+                    },
+                    "Address": {
+                        "S": "448-989 Nibh. Ave"
+                    },
+                    "Text": {
+                        "S": "imperdiet nec, leo. Morbi neque tellus, imperdiet non, vestibulum nec,"
+                    },
+                    "PK": {
+                        "S": "ACC#929B5657-2A63-9052-BCE9-FB22C655B98B"
+                    },
+                    "SK": {
+                        "S": "ACC#laoreet.ipsum.curabitur@aol.net"
+                    }
+                }
+            }
+        }
+    ]
+}
